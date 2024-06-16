@@ -1,0 +1,57 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+#app {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 3rem;
+	margin: 5rem auto 0;
+	padding: 20px;
+}
+h1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2rem;
+	font-weight: 700;
+	padding: 5px;
+}
+.iron-01 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border-radius: 10px;
+	padding: 15px;
+	background-color: rgb(218, 213, 208);
+	min-width: 25rem;
+}
+#inp-01,
+#inp-02,
+#inp-03 {
+	width: 100px;
+	height: 50px;
+	border: 4px solid rgb(10, 175, 51);
+	border-radius: 1rem;
+	margin-top: 1.5rem;
+	text-align: center;
+	padding: 1rem;
+	outline: none;
+}
+#time-01,
+#time-02,
+#time-03 {
+	font-size: 1.5rem;
+	font-weight: 700;
+	margin-top: 1rem;
+	color: rgb(10, 175, 51);
+}
+h1 img {
+	width: 50px;
+	height: 50px;
+	margin-left: 15px;
+}

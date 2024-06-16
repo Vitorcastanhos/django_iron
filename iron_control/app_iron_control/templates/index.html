@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		{% load static %}
+		<link rel="stylesheet" href="{% static 'css/style.css' %}" />
+		<link rel="shortcut icon" href="{% static 'favicon/icons8-iron-16.png' %}" type="image/x-icon" />
+		<title>Iron Control</title>
+	</head>
+	<body>
+		<div id="app">
+			<section class="iron-01">
+				<h1>Ferro 01 <img src="{% static 'images/ferro.png' %}" alt="Ferro 01" /></h1>
+				<label for="inp-01">Apto:</label>
+				<input id="inp-01" placeholder="Apto:" type="number" required />
+				<span id="time-01">Disponível</span>
+			</section>
+			<section class="iron-01">
+				<h1>Ferro 02 <img src="{% static 'images/ferro.png' %}" alt="Ferro 02" /></h1>
+				<label for="inp-02">Apto:</label>
+				<input id="inp-02" min="3" max="3" placeholder="Apto:" type="number" required />
+				<span id="time-02">Disponível</span>
+			</section>
+			<section class="iron-01">
+				<h1>Ferro 03 <img src="{% static 'images/ferro.png' %}" alt="Ferro 03" /></h1>
+				<label for="inp-03">Apto:</label>
+				<input id="inp-03" placeholder="Apto:" type="number" required />
+				<span id="time-03">Disponível</span>
+			</section>
+		</div>
+		<!-- <script type="module" src="{% static 'js/index.js' %}"></script> -->
+		<script src="{% static 'js/script.js' %}"></script>
+	</body>
+</html>
